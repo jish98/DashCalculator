@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8sp"
+    tools:context="com.example.jish.dashcalculator.MainActivity">
+
+       <EditText
+        android:id="@+id/num1"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter value1"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter value2"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:text="Result"
+        android:textColor="#007"
+        android:textSize="30sp"  />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="ADD"
+        android:layout_margin="15dp"/>
+
+
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:text="Subtract"
+        android:layout_margin="15dp"
+        />
+
+    <Button
+        android:id="@+id/buttonProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiply"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="15dp"
+        />
+
+    <Button
+        android:id="@+id/buttonDiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Divide"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="15dp"
+        />
+</LinearLayout>
